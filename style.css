@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    color: cornsilk;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    padding: 0px 4px;
+    display: inline;
+    border-radius: 30%;
+}
+
+#container {
+    margin: auto;
+    background-color: #ccc;
+    color: black;
+    width: 320px;
+    border: black 3px solid;
+    overflow: hidden;
+}
+
+p {
+    user-select: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+p:nth-child(even) {
+    background-color: #bfbfbf;
+
+}
+
+p:nth-child(odd) {
+    background-color: #cccccc;
+}
+
+#remover {
+    background-color: #ff8080;
+}
+
+#lineThrough {
+    background-color: #66ff66;
+}
