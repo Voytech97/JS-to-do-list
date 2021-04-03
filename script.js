@@ -1,7 +1,6 @@
 let addTodo = document.getElementById('addTodo');
 let container = document.getElementById('container');
 let textValue = document.getElementById('textValue');
-let todos = new Array;
 
 addTodo.addEventListener('click', function(){
 let paragraph = document.createElement('p');
